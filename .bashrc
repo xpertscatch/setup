@@ -99,8 +99,15 @@ alias l='ls -CF'
 alias cdg="git checkout"
 alias lsg="git branch"
 
-git config --global user.email "houman_sh2001@hotmail.com"
-git config --global user.name "hooman67"
+#hs screen related aliases
+alias scl='screen -ls'
+#alias scs='screen -mdS'
+alias scs='screen -t'
+alias sca='screen -x'
+
+#hs stuff
+#git config --global user.email "houman_sh2001@hotmail.com"
+#git config --global user.name "hooman67"
 ###############################################################
 
 
